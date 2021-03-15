@@ -20,7 +20,8 @@ class RegisterPage(BasePage):
         value = self.__class__.Register_Object['sex1']
         self.select_list_item(value,item=1)
 
-
+    def scroll_down(self):
+        self.js_scroll_down()
 
 
 
